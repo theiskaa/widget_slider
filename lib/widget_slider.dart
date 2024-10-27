@@ -1,9 +1,3 @@
-//
-// Copyright 2021-2022 present Insolite. All rights reserved.
-// Use of this source code is governed by Apache 2.0 license
-// that can be found in the LICENSE file.
-//
-
 library widget_slider;
 
 import 'package:flutter/material.dart';
@@ -17,8 +11,7 @@ class _FlexdSizedBox extends StatelessWidget {
   final double? aspectRatio;
   final double? fixedSize;
 
-  const _FlexdSizedBox({Key? key, this.child, this.aspectRatio, this.fixedSize})
-      : super(key: key);
+  const _FlexdSizedBox({Key? key, this.child, this.aspectRatio, this.fixedSize}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
